@@ -12,7 +12,8 @@ const port = process.env.PORT || 5000;
 
 // middleware is here
 app.use(cors({
-    origin: ['http://localhost:5173'],
+    // origin: ['http://localhost:5173'],
+    origin: ['https://car-doctor-project-3da6c.web.app/'],
     credentials: true
 }));
 app.use(express.json());
